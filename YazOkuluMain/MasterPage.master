@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Yaz Okulu Kayıt</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Ana Sayfa</a></li>
+      
+      <li><a href="Student_List.aspx">Öğrenciler</a></li>
+      <li><a href="Default.aspx">Yeni Kayıt</a></li>
+      <li><a href="Courses.aspx">Dersler</a></li>
+      <li><a href="#">Kontenjanlar</a></li>
+      <li><a href="#">Yardım</a></li>
+
+    </ul>
+  </div>
+</nav>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>
