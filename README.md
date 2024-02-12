@@ -13,7 +13,8 @@ User interface developed with Bootstrap.
 The layer where database objects are defined.
 ### Data Access Layer (DAL): 
 The layer that performs CRUD operations with the database.
-### Business Logic Layer (BLL): The layer containing the application's business logic.
+### Business Logic Layer (BLL): 
+The layer containing the application's business logic.
 
 
 License
