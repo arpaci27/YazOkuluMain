@@ -17,9 +17,10 @@ The layer that performs CRUD operations with the database.
 The layer containing the application's business logic.
 
 # Screenshots
-![Search Box Screenshot](ss (1).png)
-![Search Box Screenshot](ss (2).png)
-![Search Box Screenshot](ss (3).png)
+![Search Box Screenshot](ss1 (1).png)
+![Search Box Screenshot](ss1 (2).png)
+![Search Box Screenshot](ss1 (3).png)
+
 License
 This project is licensed under the MIT License. For more information, please see the LICENSE file.
 
